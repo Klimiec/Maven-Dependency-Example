@@ -6,7 +6,7 @@
 
     <groupId>com.piotrek.dev</groupId>
     <artifactId>tax_calculator</artifactId>
-    <version>3.0</version>
+    <version>1.0</version>
 
 
     <properties>
