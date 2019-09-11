@@ -18,13 +18,13 @@
     <dependencies>
         <dependency>
             <groupId>com.piotrek.dev</groupId>
-            <artifactId>service_A</artifactId>
-            <version>1.0</version>
+            <artifactId>service_B</artifactId>
+            <version>2.0</version>
         </dependency>
         <dependency>
             <groupId>com.piotrek.dev</groupId>
-            <artifactId>service_B</artifactId>
-            <version>2.0</version>
+            <artifactId>service_A</artifactId>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
