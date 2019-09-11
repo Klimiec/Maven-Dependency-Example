@@ -14,4 +14,13 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>com.piotrek.dev</groupId>
+            <artifactId>tax_calculator</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
 </project>
