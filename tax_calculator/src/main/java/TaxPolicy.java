@@ -3,7 +3,7 @@
 public class TaxPolicy {
 
     public static double taxPolicy() {
-        return 0.2;
+        return 0.3;
     }
 
 }
