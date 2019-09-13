@@ -3,6 +3,7 @@ package app;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import policy.TaxPolicy;
 import service_a.ReportService;
 
 import java.util.concurrent.atomic.AtomicLong;
@@ -13,6 +14,8 @@ public class ReportController {
     private final AtomicLong counter = new AtomicLong();
     private service_a.ReportService reportService_a = new ReportService();
     private service_b.ReportService reportService_b = new service_b.ReportService();
+
+    private TaxPolicy taxPolicy;
 
     @RequestMapping("/report")
     public Report report( @RequestParam(value = "value") String value,
